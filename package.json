@@ -1,0 +1,20 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "My tech portfolio is a dynamic personal portfolio application built with React and designed to showcase my web development skills to potential employers. It offers seamless navigation, project displays, and a user-friendly interface for potential employers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriamcn/React-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriamcn/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/victoriamcn/React-Portfolio#readme"
+}
