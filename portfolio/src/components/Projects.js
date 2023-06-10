@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 const projects = [
     {
@@ -50,24 +50,24 @@ export default function Example() {
                 <div className="card-header">
                     <p className="title">{project.title}</p>
                 </div>
-                <div class="content">
+                <div className="content">
                 <div className="card-image">
-                    <figure class="image is-3by1">
+                    <figure className="image is-3by1">
                         <img src={project.image} alt={project.alt} />
                     </figure>
                 </div>
                     <p className="description">{project.description}</p>
                 </div>
-                <footer class="card-footer">
+                <footer className="card-footer">
                     < div className="card-footer-item">
                         <span>
                             <a href={project.url}>
-                                <button class="button is-info">View on GitHub</button>
+                                <button className="button is-info">View on GitHub</button>
                             </a>
                         </span>
                     </div>
-                    <div class="card-footer-item tags">
-                        <span class="tag is-info is-light">{project.tech}</span>
+                    <div className="card-footer-item tags">
+                        <span className="tag is-info is-light">{project.tech}</span>
                     </div>
                 </footer>
 

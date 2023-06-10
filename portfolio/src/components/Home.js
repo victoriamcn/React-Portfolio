@@ -1,10 +1,10 @@
 import React from 'react'
-
-const Contact = () => {
+const Home = () => {
     return (
         <div className="">
         </div>
     )
+
 }
 
-export default Contact
+export default Home

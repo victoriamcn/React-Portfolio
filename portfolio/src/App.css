@@ -1,3 +1,17 @@
+:root {
+  --dark: #1E1B15;
+  --light: #F8F8F7;
+  --beigebgrd: #E8E3D5;
+  --warning: #F5EC00;
+  --good: #A1EDC3;
+  --green: #00615C;
+
+
+
+
+}
+
+
 nav, footer.footer {
   margin: 3rem;
 }
