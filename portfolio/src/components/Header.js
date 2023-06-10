@@ -1,11 +1,14 @@
 //a single Header component that appears on multiple pages
-//with a Navigation component within it that’s used to conditionally render 
-//About Me, Portfolio, Contact, and Resume sections.
+//with a Navigation component within it
+
+import Navigation from "./Navigation"
+
 
 const Header = () => {
-    <div>
-
-    </div>
+    <header>
+        <Navigation />
+    </header>
+   
 }
 
 export default Header;

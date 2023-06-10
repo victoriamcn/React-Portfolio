@@ -1,6 +1,14 @@
+nav, footer.footer {
+  margin: 3rem;
+}
+
 /* project cards */
 .card {
   margin-left: 5rem;
   margin-right: 5rem;
   margin-bottom: 3rem;
+}
+
+.title, .description {
+  padding: 0rem 1rem;
 }
