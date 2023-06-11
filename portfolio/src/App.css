@@ -36,8 +36,20 @@ body {
   background-color: var(--neutral-light-alabaster) !important;
   color: var(--neutral-dark-zeus);
 }
-.header, nav {
-  width: 100% !important;
+.herobackground {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+a.navlink {
+  background-color: var(--light-red-vanillaice);
+  color: var(--vibrant-blue-santorini)!important;
+  margin-right: .25rem;
+}
+
+a.navlink:hover {
+  background-color: var(--vibrant-orange-salmon)!important;
+  color: var(--light-red-vanillaice) !important;
 }
 
 .victoria {
@@ -46,7 +58,7 @@ body {
   font-size: 2rem;
 }
 
-h2, h3, h4 {
+h2, h3, h4, .subtitle {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
   color: var(--vibrant-red-vermilion) !important;
 }
@@ -55,9 +67,9 @@ h2, h3, h4 {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
 }
 
-nav, footer.footer {
+/*nav, footer.footer {
   margin: 3rem;
-}
+}*/
 
 footer {
   background-color: var(--neutral-light-alabaster);
@@ -79,21 +91,34 @@ a:hover {
 
 }
 
-/* HEADERS */
-.panel-heading {
-  background-color: var(--vibrant-blue-santorini)!important;
-}
-
 
 /* project cards */
-.card {
-  margin-bottom: 3rem;
+
+.cardcontainer{
+	display: grid !important;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr)) !important;
+	grid-gap: 0.75rem !important;
 }
 
-.title, .description {
-  padding: 0rem 1rem;
+.card{
+	height: max-content;
+}
+
+.cardtitle {
+  background-color: var(--light-red-vanillaice);
+}
+
+.cardtitle, .description {
+  padding: .25rem 1rem;
 }
 
 button.view {
-
+  background-color: var(--vibrant-orange-salmon) !important;
+  color: var(--neutral-light-alabaster) !important;
 }
+
+button.view:hover {
+  background-color: var(--vibrant-orange-tangerine) !important;
+  color: var(--vibrant-yellow-turbo) !important;
+}
+

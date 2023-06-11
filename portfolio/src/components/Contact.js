@@ -1,47 +1,57 @@
-import React from 'react'
+import React, { useState, useEffect  }  from 'react';
+
+function ContactForm(props) {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+    
+    let [name, setName] = useState(
+        function handleNameInput(event) {
+            setName({ ...name, name: e.target.value });
+        }
+    ) 
+
+    let [email, setEmail] = useState("")
+
+    let [message, setMessage] = useState("")
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        console.log(formData)
+    }
+}
 
 const Contact = () => {
     return (
         <section id="#contact" className="content container is-fluid" >
 
-            <h2 className="title">Contact</h2>
-
-            <div className="field">
-                <label className="label">Name</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input is-success" type="text" placeholder="Text input" value="bulma" />
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                    </span>
+            <h2 className="title">Contact Me</h2>
+            <form onSubmit={handleSubmit}>
+                <div className="field">
+                    <label className="label">Name:</label>
+                    <div className="control">
+                        <input className="input" value={formData.name} type="text" placeholder="e.g Anne Elliot" onChange={handleNameInput} required/>
+                    </div>
                 </div>
-                <div className="control">
-                    <input className="input" type="text" placeholder="e.g Anne Elliot" required />
-                </div>
-            </div>
 
-            <div className="field">
-                <label className="label">Email</label>
-                <div className="control">
-                    <input className="input" type="email" placeholder="e.g. anne@gmail.com" required />
+                <div className="field">
+                    <label className="label">Email:</label>
+                    <div className="control">
+                        <input className="input" value={formData.email} type="email" placeholder="e.g. anne@gmail.com" required />
+                    </div>
                 </div>
-            </div>
 
-            <div class="control">
-                <label className="label">Subject</label>
-                <div class="select">
-                    <select>
-                        <option>Select dropdown</option>
-                        <option>With options</option>
-                    </select>
+                <label className="label">Say something:</label>
+                <div class="control">
+                    <textarea class="textarea" value={formData.message} placeholder="e.g. Something"></textarea>
                 </div>
-            </div>
 
-            <div class="control">
-                <button class="button submit ">Submit</button>
-            </div>
+                <div class="control">
+                    <button class="button submit ">Submit</button>
+                </div>
+            </form>
         </section>
     )
 }

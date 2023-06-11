@@ -63,49 +63,39 @@ const projects = [
 
 export default function Example() {
     return (
-        <section id="#projects" className="content container is-fluid columns">
-            <div className="column">
-                <h2 className="title column">Projects</h2>
-
-                <div className="column is-5">
-
-                    {projects.map((project) => (
-                        <div className="card">
-                            <div className="card-header">
-                                <p className="title">{project.title}</p>
-                            </div>
-                            <div className="columns">
-                                <div className="column is-half">
-                                    <div className="card-image">
-                                        <figure className="image is-128x128">
-                                            <img src={project.image} alt={project.alt} />
-                                        </figure></div>
-                                </div>
-                                <div className="column is-half">
-                                    <p className="description">{project.description}</p>
-                                </div>
-                            </div>
-                            <footer className="card-footer columns">
-                                <div className="card-footer-item column">
-                                    <span>
-                                        <a href={project.repository}>
-                                            <button className="button">Repository</button>
-                                        </a>
-                                    </span>
-                                </div>
-                                < div className="card-footer-item column">
-                                    <span>
-                                        <a href={project.deployed}>
-                                            <button className="button view">Deployed App</button>
-                                        </a>
-                                    </span>
-                                </div>
-                            </footer>
-
+        <section id="#projects" className="flexcards content container is-fluid ">
+            <h2 className="title">Projects</h2>
+            {projects.map((project) => (
+                <div className="cardcontainer">
+                    <div className="card">
+                        <div className="card-image">
+                            <figure className="image is-128x128px">
+                                <img src={project.image} alt={project.alt} />
+                            </figure>
                         </div>
-                    ))}
+                        <div className="card-content">
+                            <h3 className="is-centered cardtitle">{project.title}</h3>
+                            <p className="description">{project.description}</p>
+                        </div>
+                        <footer className="card-footer ">
+                            <div className="card-footer-item">
+                                <span>
+                                    <a href={project.repository}>
+                                        <button className="button view">Repository</button>
+                                    </a>
+                                </span>
+                            </div>
+                            < div className="card-footer-item ">
+                                <span>
+                                    <a href={project.deployed}>
+                                        <button className="button view">Deployed App</button>
+                                    </a>
+                                </span>
+                            </div>
+                        </footer>
+                    </div>
                 </div>
-            </div>
-        </section>
+            ))}
+        </section >
     )
 }
