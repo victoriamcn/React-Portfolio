@@ -1,8 +1,8 @@
 :root {
   /* neutrals */
-  --dark-zeus: #1E1B15;
-  --light-alabaster: #F8F8F7;
-  --beige-oyster: #E8E3D5;
+  --neutral-dark-zeus: #1E1B15;
+  --neutral-light-alabaster: #F8F8F7;
+  --neutral-beige-oyster: #E8E3D5;
 
   /* vibrant */
   --vibrant-red-vermilion: #FF4306;
@@ -20,7 +20,7 @@
   --normal-red-japonica: #DC7A67;
   --normal-green-jade: #00615C;
   --normal-blue-blizzardblue: #b6e0F2;
-  --normal-orange-terrocotta:  #DF855C;
+  --normal-orange-terracotta:  #DF855C;
 
 
   /* dark colors */
@@ -30,18 +30,61 @@
   --dark-yellow-goldengrass: #D7A526;
 }
 
+/* layout:header, content, footer */
+
+body {
+  background-color: var(--neutral-light-alabaster) !important;
+  color: var(--neutral-dark-zeus);
+}
+
+section.content > h2 {
+  color: var(--vibrant-red-vermilion);
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
 
 nav, footer.footer {
   margin: 3rem;
 }
 
+footer {
+  background-color: var(--neutral-light-alabaster);
+}
+
+span.social {
+  margin: 1rem !important;
+}
+
+/* Links */
+
+a {
+  text-decoration: none !important;
+  color: var(--dark-red-tuscany) !important;
+}
+
+a:hover {
+  color: var(--vibrant-red-vermilion) !important;
+
+}
+
+/* HEADERS */
+.panel-heading {
+  background-color: var(--vibrant-blue-santorini)!important;
+}
+
+
 /* project cards */
 .card {
-  margin-left: 5rem;
-  margin-right: 5rem;
   margin-bottom: 3rem;
 }
 
 .title, .description {
   padding: 0rem 1rem;
+}
+
+button.view {
+
 }

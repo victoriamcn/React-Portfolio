@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import LaborHubImg from "../images/LaborHub-desktop-dashboard.jpg";
+import NightOwlImg from "../images/NightOwl-Home.html.png";
+import SocialNetImg from "../images/nosqlsocialnetworkPUTroute.png";
+import WeatherImg from "../images/weatherpreview.png";
+import TimedQuizImg from "../images/Timed-Quiz-Preview.png"
 
 const projects = [
     {
         title: 'LaborHub',
-        url: 'https://github.com/victoriamcn/LaborHub',
+        repository: 'https://github.com/victoriamcn/LaborHub',
+        deployed: { LaborHubImg },
         image: 'portfolio/src/images/desktop-dashboard.jpg',
         alt: "LaborHub App. the navigation has links to the Homepage, User Dashboard, Pay Dues and Logout. The user dashboard says 'Welcome, Test User.' It has sections for dues, a calendar, a union representative and messages.",
         description: "LaborHub is an app that allows users to share their wages, demographics data, and check if dues are paid.",
@@ -11,15 +17,16 @@ const projects = [
     },
     {
         title: 'NightOwl',
-        url: 'https://github.com/victoriamcn/NightOwl',
-        image: "portfolio/src/images/NightOwl-Home.html.png",
+        repository: 'https://github.com/victoriamcn/NightOwl',
+        image: { NightOwlImg },
         alt: "NightOwl application. Text says: Find your next adventure! Simply enter your criteria below and click 'search'. User can type in their city and select a date. Then the user can check if they want to search for music, sports or theatre events.",
-        description: "NightOwl is an application designed to make event and dining recommendations based on the user's location and selected preferences. The app allows users to discover nearby events and restaurants based on input selections, such as city, date, and event types.",
+        description: "NightOwl is an application designed to make event and dining recommendations based on the user's location and selected preferences.",
         tech: 'Third Party API, day.js, localStorage, Bootstrap, Javascript, HTML, CSS',
     },
     {
         title: 'NoSQL Social Network',
-        url: 'https://github.com/victoriamcn/NoSQL-Social-Network',
+        repository: 'https://github.com/victoriamcn/NoSQL-Social-Network',
+        deployed: { SocialNetImg },
         image: "portfolio/src/images/nosqlsocialnetworkPUTroute.png",
         alt: "Insomnia used to test a GET route to retrieve all users from the database",
         description: "This is an API for a social network web application that runs in the terminal. Users can share thoughts, react and create a friend list. Express.js is used for routing. MongoDB is used for the database along with Mongoose ODM.",
@@ -27,7 +34,8 @@ const projects = [
     },
     {
         title: 'Weather Dashboard',
-        url: 'https://github.com/victoriamcn/Weather-Dashboard',
+        repository: 'https://github.com/victoriamcn/Weather-Dashboard',
+        deployed: { WeatherImg },
         image: "portfolio/src/images/Timed-Quiz-Preview.png",
         alt: "screenshot of a weather application that displays the current day's and the five following days' forecast",
         description: "A simple weather application that runs in the browser and utilizes the 5 Day Weather Forecast API to retrieve weather data for cities.",
@@ -35,43 +43,69 @@ const projects = [
     },
     {
         title: 'Timed Quiz',
-        url: 'https://github.com/victoriamcn/Timed-Coding-Quiz',
+        repository: 'https://github.com/victoriamcn/Timed-Coding-Quiz',
+        deployed: { TimedQuizImg },
         image: "portfolio/src/images/Timed-Quiz-Preview.png",
         alt: 'screenshot of the start window for a coding quiz',
         description: "This quiz application runs in the browser that incorporates local storage to save and retrieve users' scores. After completing the quiz, the user's score and initials are displayed with other players' scores. The code utilizes the Document Object Model (DOM) API to interact with the HTML elements on the page.",
+        tech: 'localStorage, JavaScript, HTML, CSS',
+    },
+    {
+        title: 'Another ON',
+        repository: '',
+        deployed: "",
+        image: {},
+        alt: 'screenshot of the start window for a coding quiz',
+        description: "blah blah blah",
         tech: 'localStorage, JavaScript, HTML, CSS',
     },
 ]
 
 export default function Example() {
     return (
-        projects.map((project) => (
-            <div className="card">
-                <div className="card-header">
-                    <p className="title">{project.title}</p>
-                </div>
-                <div className="content">
-                <div className="card-image">
-                    <figure className="image is-3by1">
-                        <img src={project.image} alt={project.alt} />
-                    </figure>
-                </div>
-                    <p className="description">{project.description}</p>
-                </div>
-                <footer className="card-footer">
-                    < div className="card-footer-item">
-                        <span>
-                            <a href={project.url}>
-                                <button className="button is-info">View on GitHub</button>
-                            </a>
-                        </span>
-                    </div>
-                    <div className="card-footer-item tags">
-                        <span className="tag is-info is-light">{project.tech}</span>
-                    </div>
-                </footer>
+        <section id="#projects" className="content container is-fluid columns">
+            <div className="columns is-centered">
+                <h2 className="title column">Projects</h2>
 
+                <div className="column is-5">
+
+                    {projects.map((project) => (
+                        <div className="card">
+                            <div className="card-header">
+                                <p className="title">{project.title}</p>
+                            </div>
+                            <div className="columns">
+                                <div className="column is-half">
+                                    <div className="card-image">
+                                        <figure className="image is-2by3">
+                                            <img src={project.image} alt={project.alt} />
+                                        </figure></div>
+                                </div>
+                                <div className="column is-half">
+                                    <p className="description">{project.description}</p>
+                                </div>
+                            </div>
+                            <footer className="card-footer columns">
+                                <div className="card-footer-item column">
+                                    <span>
+                                        <a href={project.repository}>
+                                            <button className="button">Repository</button>
+                                        </a>
+                                    </span>
+                                </div>
+                                < div className="card-footer-item column">
+                                    <span>
+                                        <a href={project.deployed}>
+                                            <button className="button view">Deployed App</button>
+                                        </a>
+                                    </span>
+                                </div>
+                            </footer>
+
+                        </div>
+                    ))}
+                </div>
             </div>
-        ))
+        </section>
     )
 }
