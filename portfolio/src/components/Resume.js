@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ResumePDF from '../images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf'
+//portfolio/src/images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf
 import SoftSkillsList from './softSkillsList'
 import TechSkillsList from './techSkillsList'
 
@@ -9,9 +11,9 @@ const Resume = () => {
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
                     <article className="tile is-child box">
-                        <p className="title">Click Below to Download my Resume</p>
+                        <p className="title">Click Below to View my Resume</p>
                         <div className="content">
-                            <button className="button subtitle">My Resume</button>
+                            <a href={ResumePDF} target="_blank" rel="noreferrer"><button className="button subtitle">My Resume</button></a>
                         </div>
                     </article>
                 </div>
