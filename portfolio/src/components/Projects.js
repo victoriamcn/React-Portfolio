@@ -51,7 +51,7 @@ const projects = [
         tech: 'localStorage, JavaScript, HTML, CSS',
     },
     {
-        title: 'Another ON',
+        title: 'Another One',
         repository: '',
         deployed: "",
         image: {},
@@ -64,7 +64,7 @@ const projects = [
 export default function Example() {
     return (
         <section id="#projects" className="content container is-fluid columns">
-            <div className="columns is-centered">
+            <div className="column">
                 <h2 className="title column">Projects</h2>
 
                 <div className="column is-5">
@@ -77,7 +77,7 @@ export default function Example() {
                             <div className="columns">
                                 <div className="column is-half">
                                     <div className="card-image">
-                                        <figure className="image is-2by3">
+                                        <figure className="image is-128x128">
                                             <img src={project.image} alt={project.alt} />
                                         </figure></div>
                                 </div>

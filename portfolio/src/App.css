@@ -36,14 +36,23 @@ body {
   background-color: var(--neutral-light-alabaster) !important;
   color: var(--neutral-dark-zeus);
 }
-
-section.content > h2 {
-  color: var(--vibrant-red-vermilion);
+.header, nav {
+  width: 100% !important;
 }
 
-.logo {
-  width: 100%;
-  height: 100%;
+.victoria {
+  font-family: 'Oi', 'Ultra', serif !important;
+  color: var(--neutral-dark-zeus) !important;
+  font-size: 2rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Bebas Neue', 'Ultra', serif !important;
+  color: var(--vibrant-red-vermilion) !important;
+}
+
+.card-header {
+  font-family: 'Bebas Neue', 'Ultra', serif !important;
 }
 
 nav, footer.footer {

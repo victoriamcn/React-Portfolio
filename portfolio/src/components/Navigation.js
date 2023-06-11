@@ -1,16 +1,18 @@
 //with a Navigation component within it that’s used to conditionally render 
 //About Me, Portfolio, Contact, and Resume sections.
 import React from 'react'
-import Logo from '../images/VictoriaDesigns-BIG.png'
+//import Logo from '../images/VictoriaDesigns-BIG.png'
 
 const Navigation = () => {
     return (
         <div className="header">
             <nav className="navbar">
                 <div className="navbar-brand">
+                <div className="navbar-start">
                     <a href="/#" className="navbar-item">
-                        <img class="logo" src={Logo} alt="Victoria Designs logo. Bright red and peach colors. Two swallows pictured." />
+                        <h1 className="victoria"> Victoria McNorrill</h1>
                     </a>
+                </div>
                 </div>
                 <div className="navbar-menu">
                     <div className="navbar-end">

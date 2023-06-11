@@ -1,6 +1,6 @@
 import React from 'react'
-import MeOne from '../images/me 1.png'
-import MeTwo from '../images/me 2.png'
+import MeOne from '../images/photos/me 1.png'
+import MeTwo from '../images/photos/me 2.png'
 
 const About = () => {
     return (
