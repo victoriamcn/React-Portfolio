@@ -22,7 +22,7 @@ const Navigation = () => {
             </div>
             {/* Hero footer: will stick at the bottom */}
             <div class="hero-foot">
-                <nav class="tabs is-boxed ">
+                <nav class="tabs is-boxed is-small">
                     <div class="container">
                         <ul>
                             <li><a class="navlink has-text-weight-semibold" href="#projects">Projects</a></li>

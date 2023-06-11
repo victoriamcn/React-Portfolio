@@ -63,39 +63,41 @@ const projects = [
 
 export default function Example() {
     return (
-        <section id="#projects" className="flexcards content container is-fluid ">
+        <section id="projects" className="flexcards content container is-fluid ">
             <h2 className="title">Projects</h2>
-            {projects.map((project) => (
-                <div className="cardcontainer">
-                    <div className="card">
-                        <div className="card-image">
-                            <figure className="image is-128x128px">
-                                <img src={project.image} alt={project.alt} />
-                            </figure>
-                        </div>
-                        <div className="card-content">
-                            <h3 className="is-centered cardtitle">{project.title}</h3>
-                            <p className="description">{project.description}</p>
-                        </div>
-                        <footer className="card-footer ">
-                            <div className="card-footer-item">
-                                <span>
-                                    <a href={project.repository}>
-                                        <button className="button view">Repository</button>
-                                    </a>
-                                </span>
-                            </div>
-                            < div className="card-footer-item ">
-                                <span>
-                                    <a href={project.deployed}>
-                                        <button className="button view">Deployed App</button>
-                                    </a>
-                                </span>
-                            </div>
-                        </footer>
-                    </div>
+            <div className="tile is-ancestor">
+                <div className="tile is-parent">
+                    <article className="tile is-child box">
+                        <figure className="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                        </figure>
+                        <p className="title">Hello World</p>
+                        <p className="subtitle">What is up?</p>
+                    </article>
                 </div>
-            ))}
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                        </figure>
+                        <p className="title">Foo</p>
+                        <p className="subtitle">Bar</p>
+                    </article>
+                </div>
+                <div className="tile is-parent">
+                    <article className="tile is-child box">
+                        <figure className="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                        </figure>
+                        <p className="title">Third column</p>
+                        <p className="subtitle">With some content</p>
+                        <div className="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
         </section >
     )
 }
