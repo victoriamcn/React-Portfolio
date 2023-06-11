@@ -1,6 +1,4 @@
-import React from 'react'
-
-const techSkills = [
+const techSkillsList = [
     "React",
     "Back-End Development",
     "Node.js",
@@ -26,25 +24,7 @@ const techSkills = [
     "Spectre.css",
     "Bootstrap",
     "Bulma",
-    
-    "",
-    "",
-    "",
     "HTML",
-
 ]
-
-function techSkillsList(props) {
-    return (
-        <ul className="list-group">
-          {props.map((techSkills) => (
-            <li className="list-group-item" >
-                {techSkills}
-            </li>
-            ))}
-        </ul>
-    );
-}
-
 
 export default techSkillsList;
