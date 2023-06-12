@@ -19,7 +19,7 @@ const Resume = () => {
                     <article className="tile is-child box">
                         <div className="content">
                             <p className="subtitle">Proficiencies</p>
-                            <TechSkills techSkillsList={techSkillsList}/>
+                            <TechSkills/>
                         </div>
                     </article>
                 </div>

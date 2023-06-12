@@ -31,16 +31,14 @@ const techSkillsList = [
     "HTML",
 ];
 
-let TechSkills = (props) => {
-    props.techSkillsList.map((skill, i) => {
-        return (
+let TechSkills = () => {
+    return <div>
+        {techSkillsList.map((skill, i) => (
             <span key={i} data-value={skill} className="tag">
                 {skill}
             </span>
-        );
-    });
-
-    return <div>{techSkills}</div>;
-
+        ))}
+    </div>;
 }
+
 export default TechSkills;
