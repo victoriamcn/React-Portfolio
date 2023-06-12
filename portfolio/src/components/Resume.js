@@ -5,7 +5,7 @@ import TechSkills from './TechSkills'
 
 const Resume = () => {
     return (
-        <section id="resume" className="content container is-fluid" >
+        <section id="resume" className="content" >
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
                     <article className="tile is-child box">

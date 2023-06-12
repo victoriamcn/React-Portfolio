@@ -6,8 +6,7 @@ import MeOne from '../images/photos/me1b.jpeg'
 
 const About = () => {
     return (
-        <section id="about" className="content container is-fluid">
-
+        <section id="about" className="content">
             <div className="tile is-ancestor">
                 <div className="tile is-vertical is-12">
                     <div className="tile">

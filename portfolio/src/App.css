@@ -36,29 +36,40 @@ body {
   background-color: var(--neutral-light-alabaster) !important;
   color: var(--neutral-dark-zeus);
 }
-.herobackground {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+
+header  {
+  background-color: var(--neutral-beige-oyster) !important;
 }
 
-a.navlink {
-  background-color: var(--light-red-vanillaice);
-  color: var(--vibrant-blue-santorini)!important;
+.herobackground {
+  border-bottom: 4px double var(--neutral-dark-zeus) !important;
+  margin-bottom: 3rem !important;
+}
+
+section {
+  padding-top: 1rem;
+  border-top: 4px double var(--neutral-dark-zeus) !important;
+}
+
+button, a.navlink {
+  background-color: var(--vibrant-orange-salmon)!important;
+  color: var(--light-red-vanillaice) !important;
+  border: 2px solid var(--neutral-dark-zeus) !important;
   margin-right: .25rem;
 }
 
-a.navlink:hover {
-  background-color: var(--vibrant-orange-salmon)!important;
-  color: var(--light-red-vanillaice) !important;
+button, a.navlink:hover {
+  background-color: var(--light-green-mint)!important;
+  color: var(--dark-green-sherwoodforest) !important;
 }
 
-.victoria {
+.victoriatitle {
   font-family: 'Oi', 'Ultra', serif !important;
   color: var(--neutral-dark-zeus) !important;
   font-size: 2rem;
 }
 
-h2, h3, h4, .subtitle {
+.victoriasubtitle {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
   color: var(--vibrant-red-vermilion) !important;
 }
@@ -92,33 +103,7 @@ a:hover {
 }
 
 
-/* project cards */
-
-.cardcontainer{
-	display: grid !important;
-	grid-template-columns: repeat(auto-fill, minmax(300px,1fr)) !important;
-	grid-gap: 0.75rem !important;
+/* project boxes */
+.projectcol {
+    margin-right: !important;
 }
-
-.card{
-	height: max-content;
-}
-
-.cardtitle {
-  background-color: var(--light-red-vanillaice);
-}
-
-.cardtitle, .description {
-  padding: .25rem 1rem;
-}
-
-button.view {
-  background-color: var(--vibrant-orange-salmon) !important;
-  color: var(--neutral-light-alabaster) !important;
-}
-
-button.view:hover {
-  background-color: var(--vibrant-orange-tangerine) !important;
-  color: var(--vibrant-yellow-turbo) !important;
-}
-

@@ -8,7 +8,7 @@ import Resume from "./Resume";
 
 function MainContent() {
     return (
-      <main className="meat">
+      <main className="container">
         < Projects />
         < About />
         < Resume />

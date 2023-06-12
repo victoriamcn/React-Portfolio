@@ -12,10 +12,10 @@ const Navigation = () => {
             {/* Hero Centered */}
             <div className="hero-body">
                 <div className="container has-text-centered">
-                    <p className="victoria">
+                    <p className="victoriatitle">
                         Victoria McNorrill
                     </p>
-                    <p className="subtitle">
+                    <p className="victoriasubtitle">
                         Full Stack Web Developer
                     </p>
                 </div>

@@ -27,11 +27,10 @@ import React  from 'react';
 
 const Contact = () => {
     return (
-        <section id="contact" className="content container is-fluid" >
-
-            <h2 className="title">Contact Me</h2>
+        <section id="contact" className="content" >
             {/*onSubmit={handleSubmit}*/}
-            <form >
+            <form className="form box">
+            <p className="title">Contact Me</p>
                 <div className="field">
                     <label className="label">Name:</label>
                     <div className="control">
@@ -52,7 +51,7 @@ const Contact = () => {
                 </div>
 
                 <div className="control">
-                    <button className="button submit ">Submit</button>
+                    <button className="button submit m-3">Submit</button>
                 </div>
             </form>
         </section>
