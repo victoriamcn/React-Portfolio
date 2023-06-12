@@ -6,6 +6,7 @@ const techSkillsList = [
     "Object-Oriented Programming (OOP)",
     "Model-View-Controller (MVC)",
     "Object Relational Mapping (ORM)",
+    "User Experience (UX)",
     "React",
     "Node.js",
     "npm",
@@ -16,15 +17,14 @@ const techSkillsList = [
     "NoSQL",
     "MongoDB",
     "Mongoose",
-    "Document Object Model (DOM)",
-    "localStorage",
     "JavaScript",
     "jQuery",
-    "Third Party API",
+    "DOM",
+    "localStorage",
+    "Third Party APIs",
     "Handlebars.js",
     "day.js",
-    "User Experience (UX)",
-    "Cascading Style Sheets (CSS)",
+    "CSS",
     "Spectre.css",
     "Bootstrap",
     "Bulma",
@@ -34,7 +34,7 @@ const techSkillsList = [
 let TechSkills = () => {
     return <div>
         {techSkillsList.map((skill, i) => (
-            <span key={i} data-value={skill} className="tag">
+            <span key={i} data-value={skill} className="tag m-1">
                 {skill}
             </span>
         ))}
