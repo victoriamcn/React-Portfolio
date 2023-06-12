@@ -6,29 +6,29 @@ import React from 'react'
 
 const Navigation = () => {
     return (
-        <section class="hero is-halfheight-with-navbar herobackground">
+        <section className="hero is-halfheight-with-navbar herobackground">
 
 
             {/* Hero Centered */}
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <p class="victoria">
+            <div className="hero-body">
+                <div className="container has-text-centered">
+                    <p className="victoria">
                         Victoria McNorrill
                     </p>
-                    <p class="subtitle">
+                    <p className="subtitle">
                         Full Stack Web Developer
                     </p>
                 </div>
             </div>
             {/* Hero footer: will stick at the bottom */}
-            <div class="hero-foot">
-                <nav class="tabs is-boxed is-small">
-                    <div class="container">
+            <div className="hero-foot">
+                <nav className="tabs is-boxed is-small">
+                    <div className="container">
                         <ul>
-                            <li><a class="navlink has-text-weight-semibold" href="#projects">Projects</a></li>
-                            <li><a class="navlink has-text-weight-semibold is-active" href="#about">About</a></li>
-                            <li><a class="navlink has-text-weight-semibold" href="#resume">Resume</a></li>
-                            <li><a class="navlink has-text-weight-semibold" href="#contact">Contact</a></li>
+                            <li><a className="navlink has-text-weight-semibold" href="#projects">Projects</a></li>
+                            <li><a className="navlink has-text-weight-semibold is-active" href="#about">About</a></li>
+                            <li><a className="navlink has-text-weight-semibold" href="#resume">Resume</a></li>
+                            <li><a className="navlink has-text-weight-semibold" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </nav>

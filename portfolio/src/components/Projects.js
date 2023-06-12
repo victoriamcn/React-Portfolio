@@ -75,9 +75,9 @@ export default function Example() {
                         <p className="subtitle">What is up?</p>
                     </article>
                 </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image is-4by3">
+                <div className="tile is-parent">
+                    <article className="tile is-child box">
+                        <figure className="image is-4by3">
                             <img src="https://bulma.io/images/placeholders/640x480.png" alt="placeholder img"/>
                         </figure>
                         <p className="title">Foo</p>

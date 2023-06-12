@@ -47,12 +47,12 @@ const Contact = () => {
                 </div>
 
                 <label className="label">Say something:</label>
-                <div class="control">
-                    <textarea class="textarea" placeholder="e.g. Something"></textarea>
+                <div className="control">
+                    <textarea className="textarea" placeholder="e.g. Something"></textarea>
                 </div>
 
-                <div class="control">
-                    <button class="button submit ">Submit</button>
+                <div className="control">
+                    <button className="button submit ">Submit</button>
                 </div>
             </form>
         </section>
