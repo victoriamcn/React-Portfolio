@@ -48,39 +48,41 @@ header  {
 
 section {
   padding-top: 1rem;
-  border-top: 4px double var(--neutral-dark-zeus) !important;
+  border-top: 2px double var(--neutral-dark-zeus) !important;
 }
 
-button, a.navlink {
+#projects, #nav {
+  border-top: none !important;
+}
+
+a.navlink {
   background-color: var(--vibrant-orange-salmon)!important;
   color: var(--light-red-vanillaice) !important;
-  border: 2px solid var(--neutral-dark-zeus) !important;
   margin-right: .25rem;
 }
 
-button, a.navlink:hover {
+a.navlink:hover {
   background-color: var(--light-green-mint)!important;
   color: var(--dark-green-sherwoodforest) !important;
 }
 
+
+
 .victoriatitle {
   font-family: 'Oi', 'Ultra', serif !important;
   color: var(--neutral-dark-zeus) !important;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .victoriasubtitle {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
-  color: var(--vibrant-red-vermilion) !important;
+  color: var(--normal-green-jade) !important;
+  font-size: 2rem;
 }
 
 .card-header {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
 }
-
-/*nav, footer.footer {
-  margin: 3rem;
-}*/
 
 footer {
   background-color: var(--neutral-light-alabaster);
@@ -106,4 +108,14 @@ a:hover {
 /* project boxes */
 .projectcol {
     margin-right: !important;
+}
+
+button {
+  background-color: var(--normal-green-jade)!important;
+  color: var(--light-green-mint) !important;
+}
+
+button:hover {
+  background-color: var(--light-green-mint)!important;
+  color: var(--normal-green-jade) !important;
 }

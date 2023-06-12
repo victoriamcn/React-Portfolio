@@ -6,7 +6,7 @@ import React from 'react'
 
 const Navigation = () => {
     return (
-        <section className="hero is-halfheight-with-navbar herobackground">
+        <section id="nav" className="hero is-halfheight-with-navbar herobackground">
 
 
             {/* Hero Centered */}
@@ -22,7 +22,7 @@ const Navigation = () => {
             </div>
             {/* Hero footer: will stick at the bottom */}
             <div className="hero-foot">
-                <nav className="tabs is-boxed is-small">
+                <nav className="tabs is-boxed navtabs">
                     <div className="container">
                         <ul>
                             <li><a className="navlink has-text-weight-semibold" href="#projects">Projects</a></li>
