@@ -10,7 +10,7 @@ const projects = [
         title: 'LaborHub',
         repository: 'https://github.com/victoriamcn/LaborHub',
         deployed: { LaborHubImg },
-        image: 'portfolio/src/images/desktop-dashboard.jpg',
+        preview: 'portfolio/src/images/desktop-dashboard.jpg',
         alt: "LaborHub App. the navigation has links to the Homepage, User Dashboard, Pay Dues and Logout. The user dashboard says 'Welcome, Test User.' It has sections for dues, a calendar, a union representative and messages.",
         description: "LaborHub is an app that allows users to share their wages, demographics data, and check if dues are paid.",
         tech: 'MySQL, Express.JS, Handlebars.JS, Node.JS, Sequelize, dotenv, npm, JavaScript, Spectre.css, CSS',
@@ -18,7 +18,7 @@ const projects = [
     {
         title: 'NightOwl',
         repository: 'https://github.com/victoriamcn/NightOwl',
-        image: { NightOwlImg },
+        preview: { NightOwlImg },
         alt: "NightOwl application. Text says: Find your next adventure! Simply enter your criteria below and click 'search'. User can type in their city and select a date. Then the user can check if they want to search for music, sports or theatre events.",
         description: "NightOwl is an application designed to make event and dining recommendations based on the user's location and selected preferences.",
         tech: 'Third Party API, day.js, localStorage, Bootstrap, Javascript, HTML, CSS',
@@ -27,7 +27,7 @@ const projects = [
         title: 'NoSQL Social Network',
         repository: 'https://github.com/victoriamcn/NoSQL-Social-Network',
         deployed: { SocialNetImg },
-        image: "portfolio/src/images/nosqlsocialnetworkPUTroute.png",
+        preview: "portfolio/src/images/nosqlsocialnetworkPUTroute.png",
         alt: "Insomnia used to test a GET route to retrieve all users from the database",
         description: "This is an API for a social network web application that runs in the terminal. Users can share thoughts, react and create a friend list. Express.js is used for routing. MongoDB is used for the database along with Mongoose ODM.",
         tech: "MongoDB, Mongoose, Express.JS, dotenv, Node.JS, npm, JavaScript",
@@ -36,7 +36,7 @@ const projects = [
         title: 'Weather Dashboard',
         repository: 'https://github.com/victoriamcn/Weather-Dashboard',
         deployed: { WeatherImg },
-        image: "portfolio/src/images/Timed-Quiz-Preview.png",
+        preview: "portfolio/src/images/Timed-Quiz-Preview.png",
         alt: "screenshot of a weather application that displays the current day's and the five following days' forecast",
         description: "A simple weather application that runs in the browser and utilizes the 5 Day Weather Forecast API to retrieve weather data for cities.",
         tech: 'Third Party API, localStorage, Javascript, HTML, CSS',
@@ -45,7 +45,7 @@ const projects = [
         title: 'Timed Quiz',
         repository: 'https://github.com/victoriamcn/Timed-Coding-Quiz',
         deployed: { TimedQuizImg },
-        image: "portfolio/src/images/Timed-Quiz-Preview.png",
+        preview: "portfolio/src/images/Timed-Quiz-Preview.png",
         alt: 'screenshot of the start window for a coding quiz',
         description: "This quiz application runs in the browser that incorporates local storage to save and retrieve users' scores. After completing the quiz, the user's score and initials are displayed with other players' scores. The code utilizes the Document Object Model (DOM) API to interact with the HTML elements on the page.",
         tech: 'localStorage, JavaScript, HTML, CSS',
@@ -54,7 +54,7 @@ const projects = [
         title: 'Another One',
         repository: '',
         deployed: "",
-        image: {},
+        preview: {},
         alt: 'screenshot of the start window for a coding quiz',
         description: "blah blah blah",
         tech: 'localStorage, JavaScript, HTML, CSS',
@@ -69,7 +69,7 @@ export default function Example() {
                 <div className="tile is-parent">
                     <article className="tile is-child box">
                         <figure className="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                            <img src="https://bulma.io/images/placeholders/640x480.png"alt="placeholder img" />
                         </figure>
                         <p className="title">Hello World</p>
                         <p className="subtitle">What is up?</p>
@@ -78,7 +78,7 @@ export default function Example() {
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <figure class="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                            <img src="https://bulma.io/images/placeholders/640x480.png" alt="placeholder img"/>
                         </figure>
                         <p className="title">Foo</p>
                         <p className="subtitle">Bar</p>
@@ -87,7 +87,7 @@ export default function Example() {
                 <div className="tile is-parent">
                     <article className="tile is-child box">
                         <figure className="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png" />
+                            <img src="https://bulma.io/images/placeholders/640x480.png" alt="placeholder img" />
                         </figure>
                         <p className="title">Third column</p>
                         <p className="subtitle">With some content</p>

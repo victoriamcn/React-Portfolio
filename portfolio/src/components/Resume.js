@@ -1,9 +1,7 @@
 import React from 'react'
-
 import ResumePDF from '../images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf'
 //portfolio/src/images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf
-import softSkills from './softSkills'
-import techSkills from './techSkills'
+import TechSkills from './TechSkills'
 
 const Resume = () => {
     return (
@@ -20,20 +18,8 @@ const Resume = () => {
                 <div className="tile is-parent is-8">
                     <article className="tile is-child box">
                         <div className="content">
-                            <div className="columns">
-                                <div className="column">
-                                    <p className="subtitle">Proficiencies</p>
-                                    <div class='list'>
-                                        {techSkills}
-                                    </div>
-                                </div>
-                                <div className="column">
-                                    <p className="subtitle">Soft Skills</p>
-                                    <div class='list'>
-                                        {softSkills}
-                                    </div>
-                                </div>
-                            </div>
+                            <p className="subtitle">Proficiencies</p>
+                            <TechSkills techSkillsList={techSkillsList}/>
                         </div>
                     </article>
                 </div>
@@ -42,4 +28,4 @@ const Resume = () => {
     )
 }
 
-export default Resume
+export default Resume;

@@ -1,9 +1,12 @@
 const techSkillsList = [
+    "Agile",
+    "Separation of concerns",
+    "Object-Oriented Programming (OOP)",
+    "Model-View-Controller (MVC)",
+    "Object Relational Mapping (ORM)",
     "React",
-    "Back-End Development",
     "Node.js",
     "npm",
-    "Object Oriented Programming (OOP)",
     "dotenv",
     "MySQL",
     "Sequelize",
@@ -11,11 +14,10 @@ const techSkillsList = [
     "NoSQL",
     "MongoDB",
     "Mongoose",
-    "Document Object Model (DOM) ",
+    "Document Object Model (DOM)",
     "localStorage",
     "JavaScript",
     "jQuery",
-    "Front-End Development",
     "Third Party API",
     "Handlebars.js",
     "day.js",
@@ -27,4 +29,4 @@ const techSkillsList = [
     "HTML",
 ]
 
-export default techSkillsList;
+// export default techSkillsList;
