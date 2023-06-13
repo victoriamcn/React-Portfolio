@@ -2,12 +2,13 @@ import React from 'react';
 
 const techSkillsList = [
     "Agile",
-    "Separation of concerns",
-    "Object-Oriented Programming (OOP)",
-    "Model-View-Controller (MVC)",
-    "Object Relational Mapping (ORM)",
-    "User Experience (UX)",
+    "MERN",
+    "OOP",
+    "MVC",
+    "ORM",
+    "UX/UI",
     "React",
+    "GraphQL",
     "Node.js",
     "npm",
     "dotenv",
@@ -27,7 +28,7 @@ const techSkillsList = [
     "CSS",
     "Spectre.css",
     "Bootstrap",
-    "Bulma",
+    "Bulma.css",
     "HTML",
 ];
 
