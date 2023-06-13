@@ -1,6 +1,9 @@
 # React-Portfolio
+
+## Description
 My tech portfolio is a dynamic personal portfolio application built with React and designed to showcase my web development skills to potential employers. It offers seamless navigation, project displays, and a user-friendly interface for potential employers.
 
+## Table of Contents
 - [React-Portfolio](#React-Portfolio)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
@@ -11,7 +14,7 @@ My tech portfolio is a dynamic personal portfolio application built with React a
   - [Node Dependencies](#node-dependencies)
   - [Badges](#badges)
     - [Frameworks and Libraries](#frameworks-and-libraries)
-    - [Integrated Development Environments (IDE](#untegrated-development-environments-(IDE)
+    - [Integrated Development Environments (IDE)](#untegrated-development-environments-(IDE)
     - [Languages](#languages)
 
 ## Links
@@ -22,18 +25,15 @@ My tech portfolio is a dynamic personal portfolio application built with React a
 
 ## Documentation
 
-View the repository's wiki page for information on how to navigate the site  
-[Wiki-Page]()
+View the repository's wiki page for information on how to navigate the site: [Wiki-Page]()
 
 ## Preview
 
 ![preview](./assets/)
 
-
 ## License
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-This project is licensed under Apache 2.0.
 
 - [Click here](https://opensource.org/license/apache-2-0/) to view the license documentation or,
 - Go to the [license file](https://github.com/victoriamcn/React-Portfolio/blob/main/LICENSE) with in this repository.
