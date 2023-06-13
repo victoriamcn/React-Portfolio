@@ -14,7 +14,7 @@ My tech portfolio is a dynamic personal portfolio application built with React a
   - [Node Dependencies](#node-dependencies)
   - [Badges](#badges)
     - [Frameworks and Libraries](#frameworks-and-libraries)
-    - [Integrated Development Environments (IDE)](#untegrated-development-environments-(IDE)
+    - [Integrated Development Environments (IDE)](#untegrated-development-environments-ide)
     - [Languages](#languages)
 
 ## Links
