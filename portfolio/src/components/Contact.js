@@ -18,6 +18,7 @@ export default function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(`Name: ${formData.name}, Email: ${formData.email}, Message: ${formData.message}`
+        // USING dotenv: on submit, email me
         )
     };
 
