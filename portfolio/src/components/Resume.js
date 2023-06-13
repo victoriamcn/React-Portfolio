@@ -1,7 +1,7 @@
 import React from 'react'
 import ResumePDF from '../images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf'
 //portfolio/src/images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf
-import TechSkills from './TechSkills'
+import TechSkills from './techSkills'
 
 const Resume = () => {
     return (
