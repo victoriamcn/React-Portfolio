@@ -121,3 +121,7 @@ button:hover {
   background-color: var(--btn-pink-redviolet) !important;
   color: var(--nav-pink-vanillaice) !important;
 }
+
+.error-text{
+  font-weight: bold;
+}
