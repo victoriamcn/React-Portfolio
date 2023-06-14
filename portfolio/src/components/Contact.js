@@ -1,7 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 
+import {validateEmail} from "./utils/validateEmail"
+//import {checkLength} from "./utils/checkLength"
 
 const Contact = () => {
     // Here we set two state variables for firstName and lastName using `useState`
@@ -30,19 +32,21 @@ const Contact = () => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         event.preventDefault();
 
-        // email regex validation
-        const isEmail = (email) =>
-            /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
 
         // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-        if (!isEmail(email)) {
-            setErrorMessage('Email is invalid.');
+        if (!validateEmail(email) || !name) {
+            setErrorMessage('Name or email is invalid. Both are required for submission.');
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
 
+        if (!setMessage(message)) {
+            setErrorMessage('Message required.');
+            return
+        }
+
         // Alert the person wanting to contact me that the message has been sent
-        alert(`Thank you, ${name}! I will get back to you ASAP with the email you provided.`);
+        alert(`Thank you, ${name}! I will get back to you ASAP with the email you provided. Your message says: ${message}`);
         setName('');
         setEmail('');
         setMessage('');
@@ -70,13 +74,27 @@ const Contact = () => {
                 <div className="field">
                     <label className="label">Email:</label>
                     <div className="control">
-                        <input id="email" value={email} onChange={handleInputChange} name="email" type="email" placeholder="e.g. anne@gmail.com" required />
+                        <input id="email"
+                        value={email}
+                        onChange={handleInputChange}
+                        name="email"
+                        type="email"
+                        placeholder="e.g. anne@gmail.com"
+                        required />
                     </div>
                 </div>
 
                 <label className="label">Say something:</label>
                 <div className="control">
-                    <textarea id="message" value={message} onChange={handleInputChange} name="textarea" placeholder="e.g. Something" rows="5" cols="30" required></textarea>
+                    <textarea id="message"
+                    value={message}
+                    onChange={handleInputChange}
+                    name="textarea" 
+                    placeholder="e.g. Something here..."
+                    rows="5"
+                    cols="30" 
+                    required>
+                    </textarea>
                 </div>
 
                 <div className="control">
