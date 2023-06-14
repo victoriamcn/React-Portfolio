@@ -2,15 +2,15 @@ import React from 'react';
 import { useState } from 'react';
 // import { useForm } from "react-hook-form";
 
-import {validateEmail} from "./utils/validateEmail"
+import { validateEmail } from "./utils/validateEmail"
 //import {checkLength} from "./utils/checkLength"
 
 const Contact = () => {
     // Here we set two state variables for firstName and lastName using `useState`
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
 
     const handleInputChange = (event) => {
         // Getting the value and name of the input which triggered the change
@@ -18,7 +18,8 @@ const Contact = () => {
         const inputType = target.name;
         const inputValue = target.value;
 
-        // Based on the input type, we set the state of either email, name, and message
+        // Based on the input type, 
+        // we set the state of either email, name, and message
         if (inputType === 'email') {
             setEmail(inputValue);
         } else if (inputType === 'name') {
@@ -40,7 +41,7 @@ const Contact = () => {
             return;
         }
 
-        if (!setMessage(message)) {
+        if (!message) {
             setErrorMessage('Message required.');
             return
         }
@@ -59,7 +60,7 @@ const Contact = () => {
                 <p className="title">Contact Me</p>
                 <div className="field">
                     <label className="label">Name:</label>
-                    <div className="control">
+                    <div className="control is-medium">
                         <input
                             id="name"
                             value={name}
@@ -75,36 +76,38 @@ const Contact = () => {
                     <label className="label">Email:</label>
                     <div className="control">
                         <input id="email"
-                        value={email}
-                        onChange={handleInputChange}
-                        name="email"
-                        type="email"
-                        placeholder="e.g. anne@gmail.com"
-                        required />
+                            value={email}
+                            onChange={handleInputChange}
+                            name="email"
+                            type="email"
+                            placeholder="e.g. anne@gmail.com"
+                            required />
                     </div>
                 </div>
 
-                <label className="label">Say something:</label>
-                <div className="control">
-                    <textarea id="message"
-                    value={message}
-                    onChange={handleInputChange}
-                    name="textarea" 
-                    placeholder="e.g. Something here..."
-                    rows="5"
-                    cols="30" 
-                    required>
-                    </textarea>
+                <div className="field">
+                    <label className="label">Say something:</label>
+                    <div className="control">
+                        <textarea id="message"
+                            value={message}
+                            onChange={handleInputChange}
+                            name="textarea"
+                            placeholder="e.g. Something here..."
+                            rows="5"
+                            cols="30"
+                            required>
+                        </textarea>
+                    </div>
                 </div>
 
                 <div className="control">
                     <button type="button" className="button submit m-3" onClick={handleFormSubmit}>Submit</button>
                 </div>
                 {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
             </form>
         </section>
     )
