@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectsList from './ProjectsList'
+import ProjectsList from '../utils/ProjectsList'
 
 export default function Projects() {
     return (

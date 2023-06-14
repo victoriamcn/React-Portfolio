@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-// import Home from "./Home";
-import Projects from "./Projects";
-import About from "./About";
-import Contact from "./Contact";
-import Resume from "./Resume";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 function MainContent() {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 // import { useForm } from "react-hook-form";
 
-import { validateEmail } from "./utils/validateEmail"
+import { validateEmail } from "../utils/validateEmail"
 //import {checkLength} from "./utils/checkLength"
 
 const Contact = () => {

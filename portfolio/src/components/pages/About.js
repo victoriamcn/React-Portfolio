@@ -1,5 +1,5 @@
 import React from 'react'
-import MeOne from '../images/photos/me1b.jpeg'
+import MeOne from '../../assets/photos/me1b.jpeg'
 
 //portfolio/src/images/photos/me1b.jpeg
 //import MeTwo from '../images/photos/me 2.png'////

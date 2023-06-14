@@ -9,6 +9,7 @@ const techSkillsList = [
     "UX/UI",
     "React",
     "GraphQL",
+    "Apollo",
     "Node.js",
     "npm",
     "dotenv",

@@ -8,14 +8,14 @@ import './App.css';
 
 //components
 import Header from "./components/Header";
-import MainContent from "./components/MainContent"
+import Main from "./components/Main"
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App all-content">
         <Header />
-        <MainContent className="container is-fluid"/>
+        <Main className="container is-fluid"/>
         <Footer />
     </div>
   );
