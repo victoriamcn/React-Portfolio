@@ -1,83 +1,84 @@
 :root {
   /* neutrals */
-  --neutral-dark-zeus: #1E1B15;
-  --neutral-light-alabaster: #F8F8F7;
-  --neutral-beige-oyster: #E8E3D5;
+  --dark-zeus: #1E1B15;
+  --light-alabaster: #F8F8F7;
+  --header-parchment: #F3E7D7;
+  --footer-green-celeste:#D1D6C9;
 
-  /* vibrant */
-  --vibrant-red-vermilion: #FF4306;
-  --vibrant-yellow-turbo: #F5EC00;
-  --vibrant-orange-salmon: #FF8A73;
-  --vibrant-blue-santorini: #0464D4;
-  --vibrant-orange-tangerine:#EE9600;
-
-  /* light colors */
-  --light-red-vanillaice: #F4DEDC;
-  --light-green-mint: #A1EDC3;
-  --light-yellow-beeswax: #FDEBC4;
-
-  /* "muted" = easy on the eyes shades */
-  --normal-red-japonica: #DC7A67;
-  --normal-green-jade: #00615C;
-  --normal-blue-blizzardblue: #b6e0F2;
-  --normal-orange-terracotta:  #DF855C;
-
-
-  /* dark colors */
-  --dark-red-tuscany: #B15331;
-  --dark-blue-deepsapphire: #062665;
-  --dark-green-sherwoodforest: #023630;
-  --dark-yellow-goldengrass: #D7A526;
+  /* colors */
+  --titles-blue-santorini: #0464D4;
+  --nav-orange-ripemango:#D1603C;
+  --nav-pink-vanillaice: #F4DEDC;
+  --btn-pink-redviolet: #C53C80;
+  --link-orange-flamingo: #EE583F;
+  --misc-purple-Kate:#9CA3F9;
 }
 
 /* layout:header, content, footer */
 
 body {
-  background-color: var(--neutral-light-alabaster) !important;
-  color: var(--neutral-dark-zeus);
+  background-color: var(--light-alabaster) !important;
+  color: var(--dark-zeus);
 }
 
 header  {
-  background-color: var(--neutral-beige-oyster) !important;
+  background-color: var(--header-parchment) !important;
 }
 
 .herobackground {
-  border-bottom: 4px double var(--neutral-dark-zeus) !important;
+  border-bottom: 2px dotted var(--link-orange-flamingo) !important;
   margin-bottom: 3rem !important;
 }
 
 section {
   padding-top: 1rem;
-  border-top: 2px double var(--neutral-dark-zeus) !important;
 }
 
 #projects, #nav {
   border-top: none !important;
 }
 
-a.navlink {
-  background-color: var(--vibrant-orange-salmon)!important;
-  color: var(--light-red-vanillaice) !important;
-  margin-right: .25rem;
+footer {
+  margin-top: 3rem !important;
+  border-top: 2px dotted var(--link-orange-flamingo) !important;
+  background-color: var(--footer-green-celeste) !important;
+}
+
+.social {
+  font-weight: bold !important;
+}
+
+.byvictoria {
+  font-style: italic;
+}
+
+.navlink {
+  font-weight: bold;
+  text-decoration: none !important;
+  background-color: var(--link-orange-flamingo) !important;
+  color: var(--light-alabaster) !important;
 }
 
 a.navlink:hover {
-  background-color: var(--light-green-mint)!important;
-  color: var(--dark-green-sherwoodforest) !important;
+  background-color: var(--misc-purple-Kate)!important;
+  color: var(--light-alabaster) !important;
 }
 
 
 
 .victoriatitle {
-  font-family: 'Oi', 'Ultra', serif !important;
+  font-family: 'Ultra', 'Oi', serif !important;
   color: var(--neutral-dark-zeus) !important;
   font-size: 4rem;
+  text-shadow: .25rem .25rem var(--nav-pink-vanillaice);
+
 }
 
 .victoriasubtitle {
   font-family: 'Bebas Neue', 'Ultra', serif !important;
-  color: var(--normal-green-jade) !important;
-  font-size: 2rem;
+  color: var(--titles-blue-santorini) !important;
+  font-size: 2.5rem;
+  text-shadow: .35rem .35rem var(--nav-pink-vanillaice);
 }
 
 .card-header {
@@ -85,7 +86,7 @@ a.navlink:hover {
 }
 
 footer {
-  background-color: var(--neutral-light-alabaster);
+  background-color: var(--light-alabaster);
 }
 
 span.social {
@@ -95,13 +96,14 @@ span.social {
 /* Links */
 
 a {
-  text-decoration: none !important;
-  color: var(--dark-red-tuscany) !important;
+  color: var(--dark-zeus) !important;
+  text-decoration: underline var(--misc-purple-Kate) !important;
 }
 
 a:hover {
-  color: var(--vibrant-red-vermilion) !important;
-
+  font-weight: bold;
+  background-color: var(--link-orange-flamingo) !important;
+  color: var(--light-alabaster) !important;
 }
 
 
@@ -111,11 +113,11 @@ a:hover {
 }
 
 button {
-  background-color: var(--normal-green-jade)!important;
-  color: var(--light-green-mint) !important;
+  border: 1px solid var(--btn-pink-redviolet) !important;
+  color: var(--btn-pink-redviolet) !important;
 }
 
 button:hover {
-  background-color: var(--light-green-mint)!important;
-  color: var(--normal-green-jade) !important;
+  background-color: var(--btn-pink-redviolet) !important;
+  color: var(--nav-pink-vanillaice) !important;
 }
