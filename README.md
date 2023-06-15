@@ -61,7 +61,6 @@ My tech portfolio is a dynamic personal portfolio application built with React a
 
 - GitHub: [Lemming97](https://github.com/Lemming97/React_Portfolio/blob/main/src/components/Contact/index.js)
 - GitHub: [EmilyNecciai](https://github.com/EmilyNecciai/react-portfolio/blob/main/src/components/Contact.js)
-- []()
 
 ## Badges
 
