@@ -9,9 +9,9 @@ const Resume = () => {
             <div className="tile is-ancestor">
                 <div className="tile is-parent">
                     <article className="tile is-child box">
-                        <p className="title">Click Below to View my Resume</p>
+                        <p className="title">RESUME</p>
                         <div className="content">
-                            <a href={ResumePDF} target="_blank" rel="noreferrer"><button className="button subtitle">My Resume</button></a>
+                            <a href={ResumePDF} target="_blank" rel="noreferrer"><button className="button subtitle">Click to View</button></a>
                         </div>
                     </article>
                 </div>

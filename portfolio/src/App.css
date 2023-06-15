@@ -22,7 +22,7 @@ body {
 }
 
 header  {
-  background-color: var(--header-parchment) !important;
+  background-color: var(--nav-pink-vanillaice) !important;
 }
 
 .herobackground {
@@ -56,7 +56,7 @@ footer {
   font-family: 'Fjalla One', 'Bebas Neue', sans-serif !important;
   font-weight: bold;
   text-decoration: none !important;
-  background-color: var(--link-orange-flamingo) !important;
+  background-color: var(--nav-orange-ripemango) !important;
   color: var(--light-alabaster) !important;
 }
 
@@ -68,26 +68,27 @@ a.navlink:hover {
 
 
 .victoriatitle {
-  font-family: 'Oi' 'Modak', 'Ultra' sans-serif !important;
+  font-family: 'Oi', 'Modak', 'Ultra', sans-serif !important;
   color: var(--neutral-dark-zeus) !important;
   font-size: 4rem;
-  text-shadow: .25rem .25rem var(--nav-pink-vanillaice);
+  text-shadow: .25rem .25rem var(--footer-green-celeste);
 
 }
 
 .victoriasubtitle {
   font-family: 'Fjalla One', 'Bebas Neue', sans-serif !important;
-  color: var(--titles-blue-santorini) !important;
+  color: var(--btn-pink-redviolet) !important;
   font-size: 2.5rem;
-  text-shadow: .35rem .35rem var(--nav-pink-vanillaice);
+  text-shadow: .1rem .1rem var(--nav-orange-ripemango);
 }
 
 p, li {
   font-family: 'Heebo', 'Roboto', sans-serif !important;
+  color: var(--neutral-dark-zeus) !important;
 }
 
-.card-header {
-  font-family: 'Bebas Neue', 'Pathway Gothic One', serif !important;
+.title {
+  font-family: 'Fjalla One', 'Bebas Neue', sans-serif  !important;
 }
 
 footer {

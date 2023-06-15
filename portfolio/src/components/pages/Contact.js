@@ -57,7 +57,7 @@ const Contact = () => {
     return (
         <section id="contact" className="content" >
             <form className="form box">
-                <p className="title">Contact Me</p>
+                <p className="title">CONTACT ME</p>
                 <div className="field">
                     <label className="label">Name:</label>
                     <div className="control is-medium">

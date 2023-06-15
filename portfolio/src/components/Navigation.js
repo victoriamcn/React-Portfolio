@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         Victoria McNorrill
                     </p>
                     <p className="victoriasubtitle">
-                        Full Stack Web Developer
+                        FULL STACK WEB DEVELOPER
                     </p>
                 </div>
             </div>
@@ -32,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                     className={currentPage === 'Projects' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('Projects')}>
-                                    Projects
+                                    PROJECTS
                                 </a>
                             </li>
                             <li>
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                     className={currentPage === 'About' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('About')}>
-                                    About
+                                    ABOUT
                                 </a>
                             </li>
                             <li>
@@ -48,7 +48,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                     className={currentPage === 'Resume' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('Resume')}>
-                                    Resume
+                                    RESUME
                                 </a>
                             </li>
                             <li>
@@ -56,7 +56,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                     className={currentPage === 'Contact' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('Contact')}>
-                                    Contact
+                                    CONTACT
                                 </a>
                             </li>
                         </ul>
