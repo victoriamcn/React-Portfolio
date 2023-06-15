@@ -131,3 +131,32 @@ button:hover {
 .error-text{
   font-weight: bold;
 }
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 480px) {
+  .victoriatitle {
+    font-size: 2rem;  
+    text-shadow: .05rem .05rem var(--footer-green-celeste);
+
+  }
+  
+  .victoriasubtitle {
+    font-size: 1rem;
+    text-shadow: .05rem .05rem var(--nav-orange-ripemango);
+  }
+
+ .title, .subtitle, .text {
+    font-size: 1rem;
+  }
+
+
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  img.me {
+    width: 150px;
+  }
+}
