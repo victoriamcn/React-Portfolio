@@ -29,25 +29,33 @@ function Navigation({ currentPage, handlePageChange }) {
                             <li>
                                 <a href="#projects"
                                     // current page check
-                                    className={currentPage === 'Projects' ? 'navlink active' : 'navlink'}>
+                                    className={currentPage === 'Projects' ? 'navlink active' : 'navlink'}
+                                    // when tab is clicked, page changes
+                                    onClick={() => handlePageChange('Projects')}>
                                     Projects
                                 </a>
                             </li>
                             <li>
                                 <a href="#about"
-                                    className={currentPage === 'About' ? 'navlink active' : 'navlink'}>
+                                    className={currentPage === 'About' ? 'navlink active' : 'navlink'}
+                                    // when tab is clicked, page changes
+                                    onClick={() => handlePageChange('About')}>
                                     About
                                 </a>
                             </li>
                             <li>
                                 <a href="#resume"
-                                    className={currentPage === 'Resume' ? 'navlink active' : 'navlink'}>
-                                        Resume
+                                    className={currentPage === 'Resume' ? 'navlink active' : 'navlink'}
+                                    // when tab is clicked, page changes
+                                    onClick={() => handlePageChange('Resume')}>
+                                    Resume
                                 </a>
                             </li>
                             <li>
                                 <a href="#contact"
-                                    className={currentPage === 'Contact' ? 'navlink active' : 'navlink'}>
+                                    className={currentPage === 'Contact' ? 'navlink active' : 'navlink'}
+                                    // when tab is clicked, page changes
+                                    onClick={() => handlePageChange('Contact')}>
                                     Contact
                                 </a>
                             </li>

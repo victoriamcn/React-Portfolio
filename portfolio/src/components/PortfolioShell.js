@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
- function PortfolioShell() {
+function PortfolioShell() {
   // About Page selected  by default
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -33,7 +33,7 @@ import Resume from "./pages/Resume";
   return (
     <div>
       <header>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
 
 
@@ -43,36 +43,36 @@ import Resume from "./pages/Resume";
 
 
       <footer className="footer">
-      <div className="content has-text-centered">
-        <a href="https://github.com/victoriamcn" target="_blank" rel="noreferrer">
-          {/*<span className="icon">
-            <i className="fas-brands fa-github"></i>
-          </span>*/}
-          <span className="social">GitHub</span>
-        </a>
-        <a href="https://www.linkedin.com/in/victoria-mcnorrill/" target="_blank" rel="noreferrer">
-          {/*<span className="icon">
-            <i className="fas-brands fa-linkedin"></i>
-            </span>*/}
-          <span className="social">LinkedIn</span>
-        </a>
-        <a href="https://www.instagram.com/victoriamcnorrill/" target="_blank" rel="noreferrer">
-          {/*<span className="icon">
-            <i className="fas-brands fa-instagram"></i>
-          </span>*/}
-          <span className="social">Instagram</span>
-        </a>
-        <a href="https://open.spotify.com/user/torilizabeth95" target="_blank" rel="noreferrer">
-          {/*<span className="icon">
-            <i className="fas-brands fa-spotify"></i>
-          </span>*/}
-          <span className="social">Spotify</span>
-        </a>
-      </div>
-      <div className="content has-text-centered">
-        <p className='byvictoria'>by Victoria</p>
-      </div>
-    </footer>
+        <div className="content has-text-centered">
+          <a href="https://github.com/victoriamcn" target="_blank" rel="noreferrer">
+            <span className="icon">
+              <i className="fab fa-github"></i>
+            </span>
+            <span className="social">GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/victoria-mcnorrill/" target="_blank" rel="noreferrer">
+            <span className="icon">
+              <i className="fab fa-linkedin"></i>
+            </span>
+            <span className="social">LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/victoriamcnorrill/" target="_blank" rel="noreferrer">
+            <span className="icon">
+              <i className="fab fa-instagram"></i>
+            </span>
+            <span className="social">Instagram</span>
+          </a>
+          <a href="https://open.spotify.com/user/torilizabeth95" target="_blank" rel="noreferrer">
+            <span className="icon">
+              <i className="fab fa-spotify"></i>
+            </span>
+            <span className="social">Spotify</span>
+          </a>
+        </div>
+        <div className="content has-text-centered">
+          <p className='byvictoria'>Created by Victoria</p>
+        </div>
+      </footer>
     </div>
   );
 }
