@@ -41,7 +41,9 @@ View the repository's wiki page for information on how to navigate the site: [Wi
 ## Node Dependencies
 
 Click links to read the documentation for each dependency:
+
 - [dotenv](https://www.npmjs.com/package/dotenv)
+- [react-hook-form](https://www.npmjs.com/package/react-hook-form)
 
 ## Badges
 
