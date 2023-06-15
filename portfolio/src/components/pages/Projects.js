@@ -76,7 +76,7 @@ function Projects() {
                  <div className="columns is-flex is-flex-wrap-wrap is-justify-content-center">
         <p></p>
         {list.map((detail, i) => (
-            <article className="box column is-one-third projectcol m-1">
+            <article className="box column is-one-third projectcol m-1" key={detail.key}>
                 <p data-value={detail.title} className="title">{detail.title}</p>
                 <figure>
                     <img src={detail.preview} alt={detail.alt}/>
