@@ -20,7 +20,7 @@ My tech portfolio is a dynamic personal portfolio application built with React a
     - [Languages](#languages)
 ## Links
 
-[Deployed Site]()
+[Deployed Site](https://victoriamcn.github.io/React-Portfolio/#about)
 
 [GitHub Repository](https://github.com/victoriamcn/React-Portfolio)
 

@@ -12,7 +12,7 @@ const list = [
         title: 'LaborHub',
         repository: 'https://github.com/victoriamcn/LaborHub',
         deployed: "https://laborhub.herokuapp.com/",
-        preview:LaborHubImg,
+        preview: LaborHubImg,
         alt: "LaborHub App. the navigation has links to the Homepage, User Dashboard, Pay Dues and Logout. The user dashboard says 'Welcome, Test User.' It has sections for dues, a calendar, a union representative and messages.",
         description: "LaborHub is an app that allows users to share their wages, demographics data, and check if dues are paid.",
         tech: 'MySQL, Express.JS, Handlebars.JS, Node.JS, Sequelize, dotenv, npm, JavaScript, Spectre.css, CSS',
@@ -61,7 +61,7 @@ const list = [
     {
         title: 'Portfolio with React',
         repository: "https://github.com/victoriamcn/React-Portfolio",
-        deployed: "",
+        deployed: "https://victoriamcn.github.io/React-Portfolio/#about",
         preview: ReactPortfolio,
         alt: "Header: Victoria McNorrill, Full Stack Web Developer. NAvigation: Projects, About Resume, Contact. Resume Page is active. Footer: links to Github, LinkedIn, Spotify.",
         description: "My tech portfolio is built with React and designed to showcase my web development skills to potential employers.",
