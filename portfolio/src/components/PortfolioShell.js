@@ -70,7 +70,8 @@ function PortfolioShell() {
           </a>
         </div>
         <div className="content has-text-centered">
-          <p className='byvictoria'>Created by Victoria</p>
+          <p className='byvictoria'>Portfolio Created by Victoria</p>
+          <p className='byvictoria is-small'>React, JavaScript and Bulma CSS</p>
         </div>
       </footer>
     </div>

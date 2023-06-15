@@ -53,6 +53,7 @@ footer {
 }
 
 .navlink {
+  font-family: 'Fjalla One', 'Bebas Neue', sans-serif !important;
   font-weight: bold;
   text-decoration: none !important;
   background-color: var(--link-orange-flamingo) !important;
@@ -67,7 +68,7 @@ a.navlink:hover {
 
 
 .victoriatitle {
-  font-family: 'Ultra', 'Oi', serif !important;
+  font-family: 'Oi' 'Modak', 'Ultra' sans-serif !important;
   color: var(--neutral-dark-zeus) !important;
   font-size: 4rem;
   text-shadow: .25rem .25rem var(--nav-pink-vanillaice);
@@ -75,14 +76,18 @@ a.navlink:hover {
 }
 
 .victoriasubtitle {
-  font-family: 'Bebas Neue', 'Ultra', serif !important;
+  font-family: 'Fjalla One', 'Bebas Neue', sans-serif !important;
   color: var(--titles-blue-santorini) !important;
   font-size: 2.5rem;
   text-shadow: .35rem .35rem var(--nav-pink-vanillaice);
 }
 
+p, li {
+  font-family: 'Heebo', 'Roboto', sans-serif !important;
+}
+
 .card-header {
-  font-family: 'Bebas Neue', 'Ultra', serif !important;
+  font-family: 'Bebas Neue', 'Pathway Gothic One', serif !important;
 }
 
 footer {
