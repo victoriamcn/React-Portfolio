@@ -5,9 +5,12 @@ import { useState } from 'react';
 import { validateEmail } from "../utils/validateEmail"
 //import {checkLength} from "./utils/checkLength"
 
-require('dotenv').config()
+import Dotenv from "./../../webpack.config"
+const url = new Dotenv(process.env.SECRET_URL)
 
 const Contact = () => {
+    console.log(url)
+
     // Here we set two state variables for firstName and lastName using `useState`
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -47,6 +50,23 @@ const Contact = () => {
             setErrorMessage('Message required.');
             return
         }
+
+        // email me the form
+        const data = null;
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+        
+        xhr.addEventListener("readystatechange", function () {
+          if (this.readyState === this.DONE) {
+            console.log(this.responseText);
+          }
+        });
+       
+        
+        xhr.open("GET", `${url}`);
+        
+        xhr.send(data);
 
         // Alert the person wanting to contact me that the message has been sent
         alert(`Thank you, ${name}! I will get back to you ASAP with the email you provided. Your message says: ${message}`);
@@ -103,7 +123,7 @@ const Contact = () => {
                 </div>
 
                 <div className="control">
-                <a href="mailto:vmcnorrill@gmail.com"><button type="button" className="button submit m-3" onClick={handleFormSubmit}>Submit</button></a>
+                    <button type="button" className="button submit m-3" onClick={handleFormSubmit}>Submit</button>
                 </div>
                 {errorMessage && (
                     <div>
