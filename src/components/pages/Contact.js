@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { validateEmail } from "../utils/validateEmail"
 //import {checkLength} from "./utils/checkLength"
 
+require('dotenv').config()
+
 const Contact = () => {
     // Here we set two state variables for firstName and lastName using `useState`
     const [name, setName] = useState("");
@@ -101,7 +103,7 @@ const Contact = () => {
                 </div>
 
                 <div className="control">
-                    <button type="button" className="button submit m-3" onClick={handleFormSubmit}>Submit</button>
+                <a href="mailto:vmcnorrill@gmail.com"><button type="button" className="button submit m-3" onClick={handleFormSubmit}>Submit</button></a>
                 </div>
                 {errorMessage && (
                     <div>
