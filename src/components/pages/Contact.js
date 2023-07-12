@@ -5,11 +5,11 @@ import { useState } from 'react';
 import { validateEmail } from "../utils/validateEmail"
 //import {checkLength} from "./utils/checkLength"
 
-import Dotenv from "./../../webpack.config"
-const url = new Dotenv(process.env.SECRET_URL)
+// import Dotenv from "./../../webpack.config"
+// const url = new Dotenv(process.env.SECRET_URL)
 
 const Contact = () => {
-    console.log(url)
+    // console.log(url)
 
     // Here we set two state variables for firstName and lastName using `useState`
     const [name, setName] = useState("");
@@ -51,22 +51,22 @@ const Contact = () => {
             return
         }
 
-        // email me the form
-        const data = null;
+        // // email me the form
+        // const data = null;
 
-        const xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
+        // const xhr = new XMLHttpRequest();
+        // xhr.withCredentials = true;
         
-        xhr.addEventListener("readystatechange", function () {
-          if (this.readyState === this.DONE) {
-            console.log(this.responseText);
-          }
-        });
+        // xhr.addEventListener("readystatechange", function () {
+        //   if (this.readyState === this.DONE) {
+        //     console.log(this.responseText);
+        //   }
+        // });
        
         
-        xhr.open("GET", `${url}`);
+        // xhr.open("GET", `${url}`);
         
-        xhr.send(data);
+        // xhr.send(data);
 
         // Alert the person wanting to contact me that the message has been sent
         alert(`Thank you, ${name}! I will get back to you ASAP with the email you provided. Your message says: ${message}`);
@@ -78,7 +78,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="content" >
-            <form className="form box">
+            <form className="form box" action="mailto:vmcnorrill@gmail.com">
                 <p className="title">CONTACT ME</p>
                 <div className="field">
                     <label className="label">Name:</label>
