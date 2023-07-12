@@ -6,8 +6,19 @@ import SocialNetImg from "../../assets/images/nosqlsocialnetworkPUTroute.png";
 import WeatherImg from "../../assets/images/weatherpreview.png";
 import TimedQuizImg from "../../assets/images/Timed-Quiz-Preview.png"
 import ReactPortfolio from "../../assets/images/reactportfolio.png"
+import OCDetourImg from "../../assets/images/activitypreview.png"
 
 const list = [
+        {
+        title: 'OCDetour',
+        repository: 'https://github.com/jsnicholas/OCDetour',
+        deployed: "https://ocdetour-4111fd1eff32.herokuapp.com/?",
+        preview: OCDetourImg,
+        alt: "OCDetour App. User activities page.",
+        description: "OCDetour is an app to help delay compulsions for people with OCD. Leveraging research published in the journal of Behavioral Analysis, OCDetour utilizes the concept of delay discounting.",
+        tech: 'MongoDB, Express.JS, Node.JS, React, Apollo/GraphQL, JWT, npm, JavaScript, Tailwind CSS, DaisyUI, CSS',
+        key: 7,
+    },
     {
         title: 'LaborHub',
         repository: 'https://github.com/victoriamcn/LaborHub',
