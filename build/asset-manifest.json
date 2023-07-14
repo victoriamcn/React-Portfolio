@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.6399969d.css",
+    "main.js": "/React-Portfolio/static/js/main.93b9885d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/NightOwl-Home.html.png": "/React-Portfolio/static/media/NightOwl-Home.html.424842074f909d7b1447.png",
+    "static/media/me 2.png": "/React-Portfolio/static/media/me 2.2bb280411ec425b8cb37.png",
+    "static/media/me 1.png": "/React-Portfolio/static/media/me 1.5143f775dcf4c31d329a.png",
+    "static/media/weatherpreview.png": "/React-Portfolio/static/media/weatherpreview.c81ff89af2d5582f5d1f.png",
+    "static/media/reactportfolio.png": "/React-Portfolio/static/media/reactportfolio.ccbb8c5da143f7826e24.png",
+    "static/media/nosqlsocialnetworkPUTroute.png": "/React-Portfolio/static/media/nosqlsocialnetworkPUTroute.b098fc5dc92fa9882993.png",
+    "static/media/LaborHub-desktop-dashboard.jpg": "/React-Portfolio/static/media/LaborHub-desktop-dashboard.cf2a8143f1a5be2b5b61.jpg",
+    "static/media/LINKEDINVictoriaMcNorrillResume2023.pdf": "/React-Portfolio/static/media/LINKEDINVictoriaMcNorrillResume2023.27854818af2fcc37d2b7.pdf",
+    "static/media/Timed-Quiz-Preview.png": "/React-Portfolio/static/media/Timed-Quiz-Preview.94fabcaea72318cd36ea.png",
+    "static/media/headshot.jpg": "/React-Portfolio/static/media/headshot.e0b2537046dec19a5746.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.6399969d.css.map": "/React-Portfolio/static/css/main.6399969d.css.map",
+    "main.93b9885d.js.map": "/React-Portfolio/static/js/main.93b9885d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6399969d.css",
+    "static/js/main.93b9885d.js"
+  ]
+}
