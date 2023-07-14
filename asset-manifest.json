@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6399969d.css",
-    "main.js": "/React-Portfolio/static/js/main.93b9885d.js",
+    "main.css": "/React-Portfolio/static/css/main.03a0b0c4.css",
+    "main.js": "/React-Portfolio/static/js/main.00f877ed.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NightOwl-Home.html.png": "/React-Portfolio/static/media/NightOwl-Home.html.424842074f909d7b1447.png",
     "static/media/me 2.png": "/React-Portfolio/static/media/me 2.2bb280411ec425b8cb37.png",
     "static/media/me 1.png": "/React-Portfolio/static/media/me 1.5143f775dcf4c31d329a.png",
+    "static/media/activitypreview.png": "/React-Portfolio/static/media/activitypreview.558d7a09ebf9f699a317.png",
     "static/media/weatherpreview.png": "/React-Portfolio/static/media/weatherpreview.c81ff89af2d5582f5d1f.png",
     "static/media/reactportfolio.png": "/React-Portfolio/static/media/reactportfolio.ccbb8c5da143f7826e24.png",
     "static/media/nosqlsocialnetworkPUTroute.png": "/React-Portfolio/static/media/nosqlsocialnetworkPUTroute.b098fc5dc92fa9882993.png",
@@ -14,12 +15,12 @@
     "static/media/Timed-Quiz-Preview.png": "/React-Portfolio/static/media/Timed-Quiz-Preview.94fabcaea72318cd36ea.png",
     "static/media/headshot.jpg": "/React-Portfolio/static/media/headshot.e0b2537046dec19a5746.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.6399969d.css.map": "/React-Portfolio/static/css/main.6399969d.css.map",
-    "main.93b9885d.js.map": "/React-Portfolio/static/js/main.93b9885d.js.map",
+    "main.03a0b0c4.css.map": "/React-Portfolio/static/css/main.03a0b0c4.css.map",
+    "main.00f877ed.js.map": "/React-Portfolio/static/js/main.00f877ed.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6399969d.css",
-    "static/js/main.93b9885d.js"
+    "static/css/main.03a0b0c4.css",
+    "static/js/main.00f877ed.js"
   ]
 }
