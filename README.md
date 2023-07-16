@@ -24,9 +24,6 @@ My tech portfolio is a dynamic personal portfolio application built with React a
 
 [GitHub Repository](https://github.com/victoriamcn/React-Portfolio)
 
-## Preview
-
-![preview](./src/assets/images/reactportfolio.png)
 
 ## License
 
