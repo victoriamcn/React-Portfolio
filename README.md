@@ -1,7 +1,9 @@
 # React-Portfolio
 
 ## Description
-My tech portfolio is a dynamic personal portfolio application built with React and designed to showcase my web development skills to potential employers. It offers seamless navigation, project displays, and a user-friendly interface for potential employers.
+**My most updated portfolio for https://www.victoriamcodes.com/ is now under the `Portfolio` Repository.**
+
+*This repo used `create-react-app`, but I decided to redo my website with `Vite`.*
 
 ## Table of Contents
 - [React-Portfolio](#React-Portfolio)
