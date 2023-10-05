@@ -27,21 +27,12 @@ function Navigation({ currentPage, handlePageChange }) {
                     <div className="container">
                         <ul>
                             <li>
-                                <a href="#pastprojects"
+                                <a href="#projects"
                                     // current page check
                                     className={currentPage === 'Projects' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('Projects')}>
-                                    PAST PROJECTS
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#CurrentProjects"
-                                    // current page check
-                                    className={currentPage === 'CurrentProjects' ? 'navlink active' : 'navlink'}
-                                    // when tab is clicked, page changes
-                                    onClick={() => handlePageChange('CurrentProjects')}>
-                                    CURRENT PROJECTS
+                                    PROJECTS
                                 </a>
                             </li>
                             <li>
