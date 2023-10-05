@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumePDF from '../../assets/resume/LINKEDINVictoriaMcNorrillResume2023.pdf'
+import ResumePDF from '../../assets/resume/VictoriaMcNorrillResume2023-NoContactInfo.pdf'
 //portfolio/src/images/resume/LINKEDINVictoriaMcNorrillResume2023.pdf
 import TechSkills from '../utils/techSkills'
 

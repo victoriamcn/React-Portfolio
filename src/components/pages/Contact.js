@@ -78,7 +78,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="content" >
-            <form className="form box" action="mailto:vmcnorrill@gmail.com">
+            <form className="form box" action="mailto:test@gmail.com">
                 <p className="title">CONTACT ME</p>
                 <div className="field">
                     <label className="label">Name:</label>

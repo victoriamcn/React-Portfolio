@@ -51,14 +51,14 @@ function Navigation({ currentPage, handlePageChange }) {
                                     RESUME
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#contact"
                                     className={currentPage === 'Contact' ? 'navlink active' : 'navlink'}
                                     // when tab is clicked, page changes
                                     onClick={() => handlePageChange('Contact')}>
                                     CONTACT
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </nav>
