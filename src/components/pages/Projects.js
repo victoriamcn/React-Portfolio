@@ -7,8 +7,19 @@ import WeatherImg from "../../assets/images/weatherpreview.png";
 import TimedQuizImg from "../../assets/images/Timed-Quiz-Preview.png"
 import ReactPortfolio from "../../assets/images/reactportfolio.png"
 import OCDetourImg from "../../assets/images/activitypreview.png"
+import PixieCutsBySarahIMG from "../../assets/images/PixiecutsandfairyustbysarahIMG.png"
 
 const list = [
+    {
+        title: 'Pixie Cuts and Fairy Dust',
+        //repository: 'https://github.com/jsnicholas/OCDetour',
+        deployed: "https://pixiecutsfairydustbysarah.glossgenius.com/",
+        preview: PixieCutsBySarahIMG,
+        alt: "Homepage for a salon called 'Pixiecuts and Fairydust by Sarah'",
+        description: "Pixiecuts and Fairydust by Sarah is a local business in Greenville, SC. Sarah utilizes GlossGenius for her booking and payment processing, but needed help setting up a website for her salon. I advised, designed and wrote copy for the website.",
+        tech: 'Copywriting, GlossGenius, Web Design',
+        key: 8,
+    },
         {
         title: 'OCDetour',
         repository: 'https://github.com/jsnicholas/OCDetour',

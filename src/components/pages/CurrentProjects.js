@@ -2,19 +2,29 @@ import React from 'react';
 
 
 const list = [
-        {
+    {
         title: 'Jones Landscaping Services',
-        repository: 'put link here',
+        repository: 'link ',
         // deployed: '',
-        // preview: OCDetourImg,
-        // alt: "OCDetour App. User activities page.",
-        description: 'put description here',
-        // tech: 'MongoDB, Express.JS, Node.JS, React, Apollo/GraphQL, JWT, npm, JavaScript, Tailwind CSS, DaisyUI, CSS',
-        key: 1,
+        // preview: Img,
+        // alt: 'put alt here',
+        description: 'description',
+        // tech: '',
+        key: 9,
+    },
+    {
+        // title: 'title',
+        // repository: 'link',
+        // deployed: 'link',
+        // preview: Img,
+        // alt: 'alt',
+        // description: 'description',
+        // // tech: '',
+        // key: number,
     },
 ]
 
-function Projects() {
+function CurrentProjects() {
     return (
          <section id="projects" className="flexcards content">   
                  <div className="columns is-flex is-flex-wrap-wrap is-justify-content-center">
@@ -45,4 +55,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default CurrentProjects
